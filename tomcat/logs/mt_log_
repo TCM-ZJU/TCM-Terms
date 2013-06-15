@@ -1,0 +1,1295 @@
+2008-11-11 09:46:32,640 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}tcmls
+ 2008-11-11 09:46:33,375 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}tcmls
+ 2008-11-11 09:46:33,421 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}tcmls
+ 2008-11-11 09:46:33,421 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}tcmct
+ 2008-11-11 09:46:33,468 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}tcmct
+ 2008-11-11 09:46:33,515 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}tcmct
+ 2008-11-11 09:46:33,515 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}ztc
+ 2008-11-11 09:46:33,562 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}ztc
+ 2008-11-11 09:46:33,609 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}ztc
+ 2008-11-11 09:46:33,609 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}pharmic
+ 2008-11-11 09:46:33,656 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}pharmic
+ 2008-11-11 09:46:33,671 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}pharmic
+ 2008-11-11 09:46:33,671 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}tempdb
+ 2008-11-11 09:46:33,703 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}tempdb
+ 2008-11-11 09:46:33,718 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}tempdb
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.ENGLISH
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.DEF
+
+ 2008-11-11 09:46:34,156 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 09:46:34,171 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+
+ 2008-11-11 09:46:34,203 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.RELATION
+
+ 2008-11-11 09:46:34,203 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaname
+
+ 2008-11-11 09:46:34,203 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.RELATION.RELANAME
+
+ 2008-11-11 09:46:34,203 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.SEMANTICEDIT
+
+ 2008-11-11 09:46:34,203 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasRelation
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.RELATION
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.SEMANTICEDIT
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaconcept
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.SEMANTICEDIT.RELATEDCONCEPT
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasBelonging
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.SEMANTICEDIT
+
+ 2008-11-11 09:46:34,218 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#child
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#parent
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.DEFINITION
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.ALIAS
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.DEFINITION
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 09:46:34,234 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.DEFINITION.DEFINITION
+
+ 2008-11-11 09:46:34,250 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.ALIAS
+
+ 2008-11-11 09:46:34,250 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,250 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+
+ 2008-11-11 09:46:34,265 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,265 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasBelonging
+
+ 2008-11-11 09:46:34,265 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.SEMANTICEDIT
+
+ 2008-11-11 09:46:34,265 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,265 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#child
+
+ 2008-11-11 09:46:34,265 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#parent
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.DEFINITION
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.ALIAS
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.DEFINITION
+
+ 2008-11-11 09:46:34,281 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.DEFINITION.DEFINITION
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.SEMANTICEDIT
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasRelation
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.RELATION
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.SEMANTICEDIT
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaconcept
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.SEMANTICEDIT.RELATEDCONCEPT
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.ALIAS
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.RELATION
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaname
+
+ 2008-11-11 09:46:34,296 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.RELATION.RELANAME
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC.EZTC
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC.ERKC
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 09:46:34,328 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC.RKC
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaconcept
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.C
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.MH
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.MS
+
+ 2008-11-11 09:46:34,343 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasBelonging
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 09:46:34,359 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+
+ 2008-11-11 09:46:34,812 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:122)  DEBUG- start analyze...
+ 2008-11-11 09:46:34,859 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:138)  DEBUG- The Database Schema Query is: 
+PREFIX  ns:    <http://ccnt.cn/mt#>
+SELECT DISTINCT   ?a ?concept ?x ?alias ?dartVar0 
+WHERE
+  { 
+    GRAPH ?dartVar0
+      { ?x ns:hasAlias ?a .
+        ?a ns:name ?alias .
+        ?x ns:concept ?concept .
+        
+      
+      }
+  }
+
+ 2008-11-11 09:46:34,937 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:199)  DEBUG- ------ Log Solutions -------
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmls.ALIAS
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmls.ALIAS
+ 2008-11-11 09:46:35,015 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmct.ALIAS
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmct.ALIAS
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+ 2008-11-11 09:46:35,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.ENGLISH
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:35,046 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.ENGLISH
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC0.MH
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,062 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC0.MH
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC_RKC
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC_RKC.EZTC
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC_RKC
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC_RKC.EZTC
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC_RKC
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC_RKC.ERKC
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC_RKC
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,078 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC_RKC.ERKC
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC_RKC
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC_RKC.RKC
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}ztc.ZTC_RKC
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}ztc.ZTC_RKC.RKC
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:239)  DEBUG- ------ Log Solutions End -------
+ 2008-11-11 09:46:35,093 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/ztc.semreg6
+ 2008-11-11 09:46:35,140 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.MHCHI in Join Condition.
+ 2008-11-11 09:46:35,140 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ZTC in Join Condition.
+ 2008-11-11 09:46:35,140 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )  
+ 2008-11-11 09:46:35,156 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.ERKC = "大黄" ) 
+ 2008-11-11 09:46:35,156 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.ERKC = "大黄" )  : tt28934286_1 v_tr1
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmct.semreg1
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.INDEXEDBY in Join Condition.
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )  
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = "大黄" ) 
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = "大黄" )  : tt16235026_1 v_tr1
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,171 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/ztc.semreg4
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ID in Join Condition.
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( ZTC0 x INNER join ZTC0 a on x.ID = a.ID )  
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( ZTC0 x INNER join ZTC0 a on x.ID = a.ID )   where ( a.MH = "大黄" ) 
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( ZTC0 x INNER join ZTC0 a on x.ID = a.ID )   where ( a.MH = "大黄" )  : tt24223067_1 v_tr1
+ 2008-11-11 09:46:35,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/pharmic.semreg2
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ID in Join Condition.
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )  
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.LATIN = "大黄" ) 
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.LATIN = "大黄" )  : tt10573910_1 v_tr1
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/pharmic.semreg3
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ID in Join Condition.
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )  
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.ENGLISH = "大黄" ) 
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.ENGLISH = "大黄" )  : tt15582013_1 v_tr1
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,234 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,234 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/ztc.semreg5
+ 2008-11-11 09:46:35,234 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.MHCHI in Join Condition.
+ 2008-11-11 09:46:35,234 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ZTC in Join Condition.
+ 2008-11-11 09:46:35,234 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )  
+ 2008-11-11 09:46:35,234 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.EZTC = "大黄" ) 
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.EZTC = "大黄" )  : tt13109285_1 v_tr1
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/ztc.semreg7
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.MHCHI in Join Condition.
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ZTC in Join Condition.
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )  
+ 2008-11-11 09:46:35,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.RKC = "大黄" ) 
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.RKC = "大黄" )  : tt24806129_1 v_tr1
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmls.semreg0
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.INDEXEDBY in Join Condition.
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )  
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = "大黄" ) 
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = "大黄" )  : tt33059412_1 v_tr1
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = "大黄" ) 
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,265 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,281 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,812 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,812 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,890 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC0 a on x.ID = a.ID )   where ( a.MH = "大黄" ) 
+ 2008-11-11 09:46:35,890 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:35,890 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,890 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,890 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,906 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,906 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,906 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.LATIN = "大黄" ) 
+ 2008-11-11 09:46:35,906 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:35,906 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,906 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,906 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.ENGLISH = "大黄" ) 
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,921 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.EZTC = "大黄" ) 
+ 2008-11-11 09:46:35,937 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:35,937 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,937 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,937 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,937 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,937 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,953 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.RKC = "大黄" ) 
+ 2008-11-11 09:46:35,953 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:35,953 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,953 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,953 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,953 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,968 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:35,968 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = "大黄" ) 
+ 2008-11-11 09:46:35,968 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:35,968 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:35,968 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:35,968 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,000 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,000 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,015 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.ERKC = "大黄" ) 
+ 2008-11-11 09:46:36,015 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:36,015 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,015 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,015 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,031 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,031 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:93)  DEBUG- 
+Dart Sparql Query Finished in Single Thread Engine.
+ 2008-11-11 09:46:36,031 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:97)  DEBUG- The Activity is:
+<-- SqlUnionQueryActivity -->:
+	with:
+	<-- Parallel Activity -->:
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}ztc
+			with sql: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.ERKC = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}tcmct
+			with sql: select  distinct x.CONCEPT concept  from  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}ztc
+			with sql: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC0 a on x.ID = a.ID )   where ( a.MH = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}pharmic
+			with sql: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.LATIN = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}pharmic
+			with sql: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where ( a.ENGLISH = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}ztc
+			with sql: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.EZTC = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}ztc
+			with sql: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC_RKC a on x.MHCHI = a.ZTC )   where ( a.RKC = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}tcmls
+			with sql: select  distinct x.CONCEPT concept  from  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where ( a.ALIAS = '大黄' ) 
+
+
+ 2008-11-11 09:46:36,046 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,046 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:4
+ 2008-11-11 09:46:36,062 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,062 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,078 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,078 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,078 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,078 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,109 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:117)  DEBUG- Release SparqlQuery Resource.
+ 2008-11-11 09:46:36,109 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:122)  DEBUG- start analyze...
+ 2008-11-11 09:46:36,109 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:138)  DEBUG- The Database Schema Query is: 
+PREFIX  ns:    <http://ccnt.cn/mt#>
+SELECT DISTINCT   ?concept ?x ?dartVar0 
+WHERE
+  { 
+    GRAPH ?dartVar0
+      { ?x ns:concept ?concept .
+        
+      
+      }
+  }
+
+ 2008-11-11 09:46:36,140 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:199)  DEBUG- ------ Log Solutions -------
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:36,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:36,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}ztc.ZTC0
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/ztc.semreg
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:239)  DEBUG- ------ Log Solutions End -------
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmct.semreg1
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )  
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = "大黄" ) 
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = "大黄" )  : tt5112918_1 v_tr1
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 09:46:36,187 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/pharmic.semreg2
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )  
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and ( x.CONCEPT = "大黄" ) 
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and ( x.CONCEPT = "大黄" )  : tt13115887_1 v_tr1
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmls.semreg0
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )  
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = "大黄" ) 
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = "大黄" )  : tt11625052_1 v_tr1
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,203 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/ztc.semreg3
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.MHCHI in Join Condition.
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.MHCHI in Join Condition.
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( ZTC0 x INNER join ZTC0 x_0 on x.MHCHI = x.MHCHI )  
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( ZTC0 x INNER join ZTC0 x_0 on x.MHCHI = x.MHCHI )   where x.MHCHI = x_0.MHCHI  and ( x.MHCHI = "大黄" ) 
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( ZTC0 x INNER join ZTC0 x_0 on x.MHCHI = x.MHCHI )   where x.MHCHI = x_0.MHCHI  and ( x.MHCHI = "大黄" )  : tt18434612_1 v_tr1
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and ( x.CONCEPT = "大黄" ) 
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,218 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,234 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,234 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = "大黄" ) 
+ 2008-11-11 09:46:36,234 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:36,234 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,234 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,234 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,250 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,250 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC0 x_0 on x.MHCHI = x.MHCHI )   where x.MHCHI = x_0.MHCHI  and ( x.MHCHI = "大黄" ) 
+ 2008-11-11 09:46:36,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:36,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,265 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,265 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,281 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,281 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,312 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = "大黄" ) 
+ 2008-11-11 09:46:36,312 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:36,312 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:36,312 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,312 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,328 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:36,328 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:93)  DEBUG- 
+Dart Sparql Query Finished in Single Thread Engine.
+ 2008-11-11 09:46:36,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:97)  DEBUG- The Activity is:
+<-- SqlUnionQueryActivity -->:
+	with:
+	<-- Parallel Activity -->:
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}tcmct
+			with sql: select  distinct x.CONCEPT concept  from  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}pharmic
+			with sql: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and ( x.CONCEPT = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}tcmls
+			with sql: select  distinct x.CONCEPT concept  from  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and ( x.CONCEPT = '大黄' ) 
+
+		<-- SqlAtomicQueryActivity start -->
+			at {http://ccnt.cn/mt}ztc
+			with sql: select  distinct x.MHCHI concept  from  ( ZTC0 x INNER join ZTC0 x_0 on x.MHCHI = x.MHCHI )   where x.MHCHI = x_0.MHCHI  and ( x.MHCHI = '大黄' ) 
+
+
+ 2008-11-11 09:46:36,343 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:2
+ 2008-11-11 09:46:36,359 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:2
+ 2008-11-11 09:46:36,375 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:36,375 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:2
+ 2008-11-11 09:46:36,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:117)  DEBUG- Release SparqlQuery Resource.
+ 2008-11-11 09:46:43,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:122)  DEBUG- start analyze...
+ 2008-11-11 09:46:43,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:138)  DEBUG- The Database Schema Query is: 
+PREFIX  ns:    <http://ccnt.cn/mt#>
+SELECT DISTINCT   ?concept ?x ?dartVar0 
+WHERE
+  { 
+    GRAPH ?dartVar0
+      { ?x ns:concept ?concept .
+        
+      
+      }
+  }
+LIMIT   3
+
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:199)  DEBUG- ------ Log Solutions -------
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:43,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:43,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:239)  DEBUG- ------ Log Solutions End -------
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmct.semreg1
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )  
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄&3')) 
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄&3'))  limit 3  : tt8159373_1 v_tr1
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/pharmic.semreg2
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )  
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄&3')) 
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄&3'))  limit 3  : tt17092249_1 v_tr1
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:43,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmls.semreg0
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )  
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄&3')) 
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄&3'))  limit 3  : tt426285_1 v_tr1
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:43,265 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄&3'))  limit 3 
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:43,281 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:43,312 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:117)  DEBUG- Release SparqlQuery Resource.
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:122)  DEBUG- start analyze...
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:138)  DEBUG- The Database Schema Query is: 
+PREFIX  ns:    <http://ccnt.cn/mt#>
+SELECT DISTINCT   ?a ?concept ?x ?alias ?dartVar0 
+WHERE
+  { 
+    GRAPH ?dartVar0
+      { ?x ns:hasAlias ?a .
+        ?a ns:name ?alias .
+        ?x ns:concept ?concept .
+        
+      
+      }
+  }
+LIMIT   3
+
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:199)  DEBUG- ------ Log Solutions -------
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmls.ALIAS
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmls.ALIAS
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 09:46:43,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+ 2008-11-11 09:46:43,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 09:46:43,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:43,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmct.ALIAS
+ 2008-11-11 09:46:43,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:43,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:43,343 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+ 2008-11-11 09:46:43,359 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:43,359 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmct.ALIAS
+ 2008-11-11 09:46:43,359 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+ 2008-11-11 09:46:43,375 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:239)  DEBUG- ------ Log Solutions End -------
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmct.semreg1
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.INDEXEDBY in Join Condition.
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )  
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄&3')) 
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄&3'))  limit 3  : tt13352435_1 v_tr1
+ 2008-11-11 09:46:43,390 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/pharmic.semreg2
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ID in Join Condition.
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )  
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where (REGEXP_LIKE(a.LATIN,'大黄&3')) 
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where (REGEXP_LIKE(a.LATIN,'大黄&3'))  limit 3  : tt19282579_1 v_tr1
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,406 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmls.semreg0
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.INDEXEDBY in Join Condition.
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )  
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄&3')) 
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄&3'))  limit 3  : tt21308426_1 v_tr1
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where (REGEXP_LIKE(a.LATIN,'大黄&3'))  limit 3 
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 09:46:43,421 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 09:46:43,437 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 09:46:43,437 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:117)  DEBUG- Release SparqlQuery Resource.
+ 2008-11-11 10:02:19,218 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}tcmls
+ 2008-11-11 10:02:19,921 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}tcmls
+ 2008-11-11 10:02:19,953 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}tcmls
+ 2008-11-11 10:02:19,953 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}tcmct
+ 2008-11-11 10:02:20,000 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}tcmct
+ 2008-11-11 10:02:20,015 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}tcmct
+ 2008-11-11 10:02:20,015 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}ztc
+ 2008-11-11 10:02:20,046 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}ztc
+ 2008-11-11 10:02:20,062 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}ztc
+ 2008-11-11 10:02:20,062 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}pharmic
+ 2008-11-11 10:02:20,125 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}pharmic
+ 2008-11-11 10:02:20,140 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}pharmic
+ 2008-11-11 10:02:20,140 cn.edu.zju.dart.core.resregistry.impl.SparqlResRegParser (SparqlResRegParser.java:82)  DEBUG- Find Db Resource: {http://ccnt.cn/mt}tempdb
+ 2008-11-11 10:02:20,187 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:78)  DEBUG- Extract meta data from JDBC data resource: {http://ccnt.cn/mt}tempdb
+ 2008-11-11 10:02:20,203 cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor (SerializedMetaDataExtractor.java:95)  INFO - Read metadata from file: {http://ccnt.cn/mt}tempdb
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.ENGLISH
+
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,625 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.DEF
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}pharmic.PHARMIC
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 10:02:20,640 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+
+ 2008-11-11 10:02:20,671 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.RELATION
+
+ 2008-11-11 10:02:20,671 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaname
+
+ 2008-11-11 10:02:20,671 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.RELATION.RELANAME
+
+ 2008-11-11 10:02:20,671 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.SEMANTICEDIT
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasRelation
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.RELATION
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.SEMANTICEDIT
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaconcept
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.SEMANTICEDIT.RELATEDCONCEPT
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasBelonging
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.SEMANTICEDIT
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#child
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#parent
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,687 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.DEFINITION
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.ALIAS
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.TCM
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.DEFINITION
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.DEFINITION.DEFINITION
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmct.ALIAS
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,703 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasBelonging
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.SEMANTICEDIT
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#child
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#parent
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,734 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.DEFINITION
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.ALIAS
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.TCM
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 10:02:20,750 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.DEFINITION
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.DEFINITION.DEFINITION
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.SEMANTICEDIT
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasRelation
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.RELATION
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.SEMANTICEDIT
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaconcept
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.SEMANTICEDIT.RELATEDCONCEPT
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.ALIAS
+
+ 2008-11-11 10:02:20,765 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,781 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+
+ 2008-11-11 10:02:20,781 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}tcmls.RELATION
+
+ 2008-11-11 10:02:20,781 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaname
+
+ 2008-11-11 10:02:20,781 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}tcmls.RELATION.RELANAME
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC.EZTC
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC.ERKC
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,796 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC.RKC
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#relaconcept
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.C
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#name
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.MH
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#content
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.MS
+
+ 2008-11-11 10:02:20,812 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasBelonging
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasAlias
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC_RKC
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#hasDefination
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:146)  DEBUG- Subject: {http://ccnt.cn/mt}ztc.ZTC0
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:147)  DEBUG- Predicate: http://ccnt.cn/mt#concept
+
+ 2008-11-11 10:02:20,828 cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry (SparqlSemRegistry.java:152)  DEBUG- {http://ccnt.cn/mt}ztc.ZTC0.MHCHI
+
+ 2008-11-11 10:02:21,281 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:122)  DEBUG- start analyze...
+ 2008-11-11 10:02:21,328 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:138)  DEBUG- The Database Schema Query is: 
+PREFIX  ns:    <http://ccnt.cn/mt#>
+SELECT DISTINCT   ?concept ?x ?dartVar0 
+WHERE
+  { 
+    GRAPH ?dartVar0
+      { ?x ns:concept ?concept .
+        
+      
+      }
+  }
+LIMIT   3
+
+ 2008-11-11 10:02:21,390 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:199)  DEBUG- ------ Log Solutions -------
+ 2008-11-11 10:02:21,468 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 10:02:21,468 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 10:02:21,484 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 10:02:21,500 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:239)  DEBUG- ------ Log Solutions End -------
+ 2008-11-11 10:02:21,500 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmct.semreg1
+ 2008-11-11 10:02:21,531 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:21,531 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:21,531 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )  
+ 2008-11-11 10:02:21,546 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄')) 
+ 2008-11-11 10:02:21,546 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄'))  limit 3  : tt24575663_1 v_tr1
+ 2008-11-11 10:02:21,546 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 10:02:21,546 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 10:02:21,546 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 10:02:21,546 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 10:02:21,546 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/pharmic.semreg2
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )  
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄')) 
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄'))  limit 3  : tt4317866_1 v_tr1
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmls.semreg0
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )  
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄')) 
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join TCM x_0 on x.ID = x.ID )   where x_0.ID = x.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄'))  limit 3  : tt1331502_1 v_tr1
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x_0
+ 2008-11-11 10:02:21,562 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 10:02:21,578 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 10:02:21,578 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 10:02:21,578 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC x_0 on x.ID = x.ID )   where x.ID = x_0.ID  and (REGEXP_LIKE(x.CONCEPT,'大黄'))  limit 3 
+ 2008-11-11 10:02:21,578 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 10:02:21,578 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 10:02:21,578 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 10:02:21,593 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 10:02:22,156 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:117)  DEBUG- Release SparqlQuery Resource.
+ 2008-11-11 10:02:22,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:122)  DEBUG- start analyze...
+ 2008-11-11 10:02:22,171 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:138)  DEBUG- The Database Schema Query is: 
+PREFIX  ns:    <http://ccnt.cn/mt#>
+SELECT DISTINCT   ?a ?concept ?x ?alias ?dartVar0 
+WHERE
+  { 
+    GRAPH ?dartVar0
+      { ?x ns:hasAlias ?a .
+        ?a ns:name ?alias .
+        ?x ns:concept ?concept .
+        
+      
+      }
+  }
+LIMIT   3
+
+ 2008-11-11 10:02:22,187 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:199)  DEBUG- ------ Log Solutions -------
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmls.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmls.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmls.TCM.CONCEPT
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmls.TCM
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmls.ALIAS.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmls.semreg
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmct.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}tcmct.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}tcmct.TCM.CONCEPT
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}tcmct.TCM
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}tcmct.ALIAS.ALIAS
+ 2008-11-11 10:02:22,203 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/tcmct.semreg
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:205)  DEBUG- -- Solution --
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- a: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- concept: {http://ccnt.cn/mt}pharmic.PHARMIC.CONCEPT
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- x: {http://ccnt.cn/mt}pharmic.PHARMIC
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- alias: {http://ccnt.cn/mt}pharmic.PHARMIC.LATIN
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:212)  DEBUG- dartVar0: http://ccnt.cn/mt/pharmic.semreg
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:239)  DEBUG- ------ Log Solutions End -------
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmct.semreg1
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:22,218 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.INDEXEDBY in Join Condition.
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )  
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄')) 
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄'))  limit 3  : tt2743811_1 v_tr1
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/pharmic.semreg2
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.ID in Join Condition.
+ 2008-11-11 10:02:22,234 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )  
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where (REGEXP_LIKE(a.LATIN,'大黄')) 
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where (REGEXP_LIKE(a.LATIN,'大黄'))  limit 3  : tt2890515_1 v_tr1
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:149)  DEBUG- Genarate sql plan for instance space: http://ccnt.cn/mt/tcmls.semreg0
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column x.ID in Join Condition.
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.impl.JoinInfo (JoinInfo.java:72)  DEBUG- Find Column a.INDEXEDBY in Join Condition.
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:314)  DEBUG- In Function generateWherePart initialized everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )  
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:346)  DEBUG- In Function generateWherePart Finished everySb is: ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄')) 
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInOneDbRes (SqlInOneDbRes.java:187)  DEBUG-  ( TCM x INNER join ALIAS a on x.ID = a.INDEXEDBY )   where (REGEXP_LIKE(a.ALIAS,'大黄'))  limit 3  : tt21469803_1 v_tr1
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:91)  DEBUG- 
+===== Solution Binding =====
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- x => x
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- a => a
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:93)  DEBUG- concept => concept
+ 2008-11-11 10:02:22,250 cn.edu.zju.dart.core.sparql.sql.SqlInMultiDbRes (SqlInMultiDbRes.java:95)  DEBUG- 
+ 2008-11-11 10:02:22,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:62)  DEBUG- Exec SqlAtomic Query: select  distinct x.CONCEPT concept  from  ( PHARMIC x INNER join PHARMIC a on x.ID = a.ID )   where (REGEXP_LIKE(a.LATIN,'大黄'))  limit 3 
+ 2008-11-11 10:02:22,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:63)  DEBUG- ===== var to column name ===
+ 2008-11-11 10:02:22,265 cn.edu.zju.dart.core.engine.activity.sparql.SqlAtomicQueryActivity (SqlAtomicQueryActivity.java:65)  DEBUG- concept => concept
+ 2008-11-11 10:02:22,265 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (JdbcDbRes.java:114)  DEBUG- Create DbResQueryResult: cn.edu.zju.dart.core.resregistry.result.impl.PagedJdbcDbResQueryResult
+ 2008-11-11 10:02:22,265 cn.edu.zju.dart.core.resregistry.model.impl.JdbcDbRes (PagedJdbcDbResQueryResult.java:53)  DEBUG- Get a New DataBlock in globalIndex:1
+ 2008-11-11 10:02:22,281 cn.edu.zju.dart.core.sparql.DartSparqlQuery (DartSparqlQuery.java:117)  DEBUG- Release SparqlQuery Resource.
+ 

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<project name="MT" default="deploy" basedir="./">
+	<property file="build.properties"/>
+	<property name="name" value="mt"/>
+	<property name="src.dir" value="${basedir}/bin"/>
+	<property name="lib.dir" value="${basedir}/lib"/>
+	<property name="www.dir" value="${basedir}/www/ccnt.MT"/>
+	
+	<target name="deploy" depends="compile,deploy-without-compile">
+	</target>
+	
+	<target name="deploy-without-compile" depends="clean">
+		<copy todir="${deploy.path}">
+            <fileset dir="${www.dir}">
+            	<include name="**/*" />
+           	</fileset>
+        </copy>
+		<copy todir="${deploy.path}/WEB-INF/classes">
+			<fileset dir="${src.dir}">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${deploy.path}/WEB-INF/lib">
+			<fileset dir="${lib.dir}">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy tofile="${deploy.path}/WEB-INF/web.xml" file="web.xml"/>
+	</target>
+	
+	<target name="compile">
+		<exec executable ="cmd">
+			<arg line="/c MT-compile.cmd"/>
+		</exec>
+	</target>
+	
+	<target name="clean">
+		<delete>
+			<fileset dir="${deploy.path}" includes="**/*"/>
+		</delete>
+	</target>
+	
+	<target name="war">
+		<delete>
+			<fileset dir="${deploy.path}/WEB-INF/classes/etc" includes="**/*"/>
+		</delete>
+		<copy todir="${deploy.path}/WEB-INF/classes">
+			<fileset dir="${basedir}/beijing">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy tofile="${deploy.path}/WEB-INF/classes/log4j.properties" file="${src.dir}/log4j2.properties"/>
+		<war warfile="${basedir}/mt.war" webxml="${deploy.path}/WEB-INF/web.xml">
+			<lib dir="${deploy.path}/WEB-INF/lib"/>
+			<classes dir = "${deploy.path}/WEB-INF/classes"/>
+			<fileset dir="${deploy.path}">
+			</fileset>
+		</war>
+	</target>
+
+	<target name="tomcat-start">
+		<exec dir="${appserver.home}/bin" executable="cmd">
+			<env key="CATALINA_HOME" path="${appserver.home}"/>
+			<arg value="/C startup.bat"/>
+		</exec>
+	</target>
+</project>

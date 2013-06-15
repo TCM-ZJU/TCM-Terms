@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY a 'http://protege.stanford.edu/system#'>
+	 <!ENTITY v2 'http://dart.zju.edu.cn/dartcore/v2#'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:a="&a;"
+	 xmlns:v2="&v2;"
+	 xmlns:rdfs="&rdfs;">
+<rdfs:Class rdf:about="&v2;Alias"
+	 rdfs:label="Alias">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&v2;Belonging"
+	 rdfs:label="Belonging">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&v2;DBName"
+	 a:maxCardinality="1"
+	 rdfs:label="DBName">
+	<rdfs:domain rdf:resource="&v2;DBTypeNode"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&v2;DBTypeNode"
+	 rdfs:label="DBTypeNode">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&v2;Defination"
+	 rdfs:label="Defination">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&v2;Relation"
+	 rdfs:label="Relation">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&v2;ValueNode"
+	 rdfs:label="ValueNode">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&v2;Word"
+	 rdfs:label="Word">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&v2;biggerOrEqual"
+	 rdfs:label="biggerOrEqual">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;biggerThan"
+	 rdfs:label="biggerThan">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;child"
+	 rdfs:label="child">
+	<rdfs:domain rdf:resource="&v2;Word"/>
+	<rdfs:range rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;class"
+	 rdfs:label="class">
+	<rdfs:range rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;concept"
+	 a:maxCardinality="1"
+	 rdfs:label="concept">
+	<rdfs:range rdf:resource="&v2;ValueNode"/>
+	<rdfs:domain rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;content"
+	 a:maxCardinality="1"
+	 rdfs:label="content">
+	<rdfs:domain rdf:resource="&v2;Defination"/>
+	<rdfs:range rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;dartcore_include_Slot_1"
+	 a:maxCardinality="1"
+	 rdfs:label="dartcore_include_Slot_1">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;dartcore_include_Slot_12"
+	 a:maxCardinality="1"
+	 rdfs:label="dartcore_include_Slot_12">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;dbtype"
+	 a:maxCardinality="1"
+	 rdfs:label="dbtype">
+	<rdfs:range rdf:resource="&v2;DBTypeNode"/>
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;equalTo"
+	 rdfs:label="equalTo">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;hasAlias"
+	 rdfs:label="hasAlias">
+	<rdfs:range rdf:resource="&v2;Alias"/>
+	<rdfs:domain rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;hasBelonging"
+	 rdfs:label="hasBelonging">
+	<rdfs:range rdf:resource="&v2;Belonging"/>
+	<rdfs:domain rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;hasDefination"
+	 rdfs:label="hasDefination">
+	<rdfs:range rdf:resource="&v2;Defination"/>
+	<rdfs:domain rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;hasRelation"
+	 a:maxCardinality="1"
+	 rdfs:label="hasRelation">
+	<rdfs:domain rdf:resource="&v2;Belonging"/>
+	<rdfs:range rdf:resource="&v2;Relation"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;instance"
+	 rdfs:label="instance">
+	<rdfs:range rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;isSelected"
+	 a:maxCardinality="1"
+	 a:range="boolean"
+	 rdfs:label="isSelected">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;lessOrEqual"
+	 rdfs:label="lessOrEqual">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;lessThan"
+	 rdfs:label="lessThan">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;like"
+	 rdfs:label="like">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;name"
+	 a:maxCardinality="1"
+	 rdfs:label="name">
+	<rdfs:domain rdf:resource="&v2;Alias"/>
+	<rdfs:range rdf:resource="&v2;ValueNode"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;parent"
+	 rdfs:label="parent">
+	<rdfs:range rdf:resource="&v2;Word"/>
+	<rdfs:domain rdf:resource="&v2;Word"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;relaconcept"
+	 a:maxCardinality="1"
+	 rdfs:label="relaconcept">
+	<rdfs:domain rdf:resource="&v2;Belonging"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;relaname"
+	 a:maxCardinality="1"
+	 rdfs:label="relaname">
+	<rdfs:domain rdf:resource="&v2;Relation"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;value"
+	 a:maxCardinality="1"
+	 rdfs:label="value">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&v2;valueType"
+	 a:maxCardinality="1"
+	 rdfs:label="valueType">
+	<rdfs:domain rdf:resource="&v2;ValueNode"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+</rdf:RDF>

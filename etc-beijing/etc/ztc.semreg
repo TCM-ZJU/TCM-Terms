@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tableregister>
+  <table>
+    <uri>{http://ccnt.cn/mt}ztc.ZTC0</uri>
+    <ontologies>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Word</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#concept</ontologyURI>
+            <column>MHCHI</column>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasDefination</ontologyURI>
+            <table>{http://ccnt.cn/mt}ztc.ZTC0</table>
+            <joinref>hasDefination</joinref>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasAlias</ontologyURI>
+            <table>{http://ccnt.cn/mt}ztc.ZTC_RKC</table>
+            <joinref>hasAlias</joinref>
+          </ontoProp>          
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasAlias</ontologyURI>
+            <table>{http://ccnt.cn/mt}ztc.ZTC0</table>
+            <joinref>hasSelfAlias</joinref>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasBelonging</ontologyURI>
+            <table>{http://ccnt.cn/mt}ztc.ZTC0</table>
+            <joinref>hasBelonging</joinref>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Definition</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#content</ontologyURI>
+            <column>MS</column>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Alias</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#name</ontologyURI>
+            <column>MH</column>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Belonging</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#relaconcept</ontologyURI>
+            <column>C</column>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+    </ontologies>
+  </table>
+  <join id="hasDefination">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="ID1" father="1">{http://ccnt.cn/mt}ztc.ZTC0.ID</column>
+      <column refid="ID2" father="2">{http://ccnt.cn/mt}ztc.ZTC0.ID</column>
+      <condition>###ID1### = ###ID2###</condition>
+    </constraint>
+  </join>
+  <join id="hasAlias">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="MHCHI" father="1">{http://ccnt.cn/mt}ztc.ZTC0.MHCHI</column>
+      <column refid="ZTC" father="2">{http://ccnt.cn/mt}ztc.ZTC_RKC.ZTC</column>
+      <condition>###MHCHI### = ###ZTC###</condition>
+    </constraint>
+  </join>  
+  <join id="hasSelfAlias">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="ID1" father="1">{http://ccnt.cn/mt}ztc.ZTC0.ID</column>
+      <column refid="ID2" father="2">{http://ccnt.cn/mt}ztc.ZTC0.ID</column>
+      <condition>###ID1### = ###ID2###</condition>
+    </constraint>
+  </join>
+  <join id="hasBelonging">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="ID1" father="1">{http://ccnt.cn/mt}ztc.ZTC0.ID</column>
+      <column refid="ID2" father="2">{http://ccnt.cn/mt}ztc.ZTC0.ID</column>
+      <condition>###ID1### = ###ID2###</condition>
+    </constraint>
+  </join>
+  <table>
+    <uri>{http://ccnt.cn/mt}ztc.ZTC_RKC</uri>
+    <ontologies>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Alias</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#name</ontologyURI>
+            <column>RKC</column>
+          </ontoProp>          
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#name</ontologyURI>
+            <column>ERKC</column>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#name</ontologyURI>
+            <column>EZTC</column>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+    </ontologies>
+  </table>
+</tableregister>

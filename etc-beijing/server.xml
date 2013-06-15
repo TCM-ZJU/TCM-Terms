@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+	<tcmct>
+		<url>jdbc:oracle:thin:@192.168.200.50:1521:CINTCM</url>
+		<user>snomed</user>
+		<password>snomed</password>
+		<max>100</max>
+		<min>50</min>
+		<idle>50</idle>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<name>中医临床术语集</name>
+	</tcmct>
+	<ztc>
+		<url>jdbc:oracle:thin:@192.168.200.74:1521:SHRDB1</url>
+		<user>wx</user>
+		<password>wx5803</password>
+		<max>100</max>
+		<min>50</min>
+		<idle>50</idle>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<name>中医药学主题词表</name>
+	</ztc>
+	<pharmic>
+		<url>jdbc:oracle:thin:@192.168.200.74:1521:SHRDB1</url>
+		<user>semantic_net</user>
+		<password>semantic_net5803</password>
+		<max>100</max>
+		<min>50</min>
+		<idle>50</idle>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<name>中医药学名词</name>
+	</pharmic>
+</databases>

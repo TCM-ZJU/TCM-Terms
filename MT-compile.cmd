@@ -1,0 +1,1 @@
+@java -Xmx128M -cp "%~dp0\src;%~dp0\bin;%~dp0\lib\gwt-user.jar;%~dp0\lib\gwtext.jar;%~dp0\lib\gwtextux.jar;%~dp0\lib\gwt-dev-windows.jar" com.google.gwt.dev.GWTCompiler -out "%~dp0\www" %* ccnt.MT

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<!--
+  - Root application context definition for a web app that uses JDBC.
+  - Does not depend on web infrastructure or any web-specific classes!
+  -
+  - Assumes running in a J2EE environment in the "myDataSource" definition, as
+  - it looks for a "java:comp/env/jdbc/myds" JNDI DataSource, but that can be
+  - replaced easily (as noted). Such a context definition can thus be reused
+  - in test environments or standalone applications without any hassle.
+  -->
+
+<beans>
+
+	<!-- ========================= GENERAL DEFINITIONS ========================= -->
+
+	<!-- Configurer that replaces ${...} placeholders with values from properties files -->
+	<!-- (in this case, mail and JDBC related properties) -->
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>etc/dartcore.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- ========================= GENERAL DEFINITIONS ========================= -->
+
+	<!--
+	  - The message source for this context, loaded from localized "messages_xx" files
+	  - in the classpath, i.e. "/WEB-INF/classes/messages.properties" or
+	  - "/WEB-INF/classes/messages_de.properties".
+	  -
+	  - "getMessage" calls to this context will use this source.
+	  - Child contexts can have their own message sources, inheriting all messages from this
+	  - source, being able to define new messages and override ones defined in this source.
+	  -->
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename"><value>messages</value></property>
+	</bean>
+	
+	<bean id="OrgMySQLMetaDataExtractor" class="cn.edu.zju.dart.core.resregistry.metadata.impl.MySqlMetaDataExtractor"/>
+	<bean id="MySQLMetaDataExtractor" class="cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor">
+		<constructor-arg index="0"><value>metadata</value></constructor-arg>
+		<constructor-arg index="1"><ref bean="OrgMySQLMetaDataExtractor"/></constructor-arg>		
+	</bean>
+	<bean id="MySQLConnectionFactory" class="cn.edu.zju.dart.core.resregistry.connection.impl.MySQLConnFactory" singleton="false"/>
+
+	<!-- 
+	<bean id="MySQLTempDbResHelper" class="cn.edu.zju.dart.core.resregistry.tempdb.impl.SimpleJDBCTempDbResHelper" singleton="false"/>
+	-->	
+	<bean id="MySQLTempDbResHelper" class="cn.edu.zju.dart.core.sparql.sql.SimpleJDBCTempDbResHelper4Sparql" singleton="false"/>
+	<bean id="MySQLSqlTypeHandler" class="cn.edu.zju.dart.core.resregistry.metadata.impl.MySqlSqlTypeHandler"/>
+
+	<bean id="OracleSqlTypeHandler" class="cn.edu.zju.dart.core.resregistry.metadata.impl.OracleSqlTypeHandler"/>
+		
+	<bean id="OrgUnknownJDBCMetaDataExtractor" class="cn.edu.zju.dart.core.resregistry.metadata.impl.SimpleJDBCMetaDataExtractor"/>
+	<bean id="UnknownJDBCMetaDataExtractor" class="cn.edu.zju.dart.core.resregistry.metadata.impl.SerializedMetaDataExtractor">
+		<constructor-arg index="0"><value>metadata</value></constructor-arg>
+		<constructor-arg index="1"><ref bean="OrgUnknownJDBCMetaDataExtractor"/></constructor-arg>
+	</bean>
+	<bean id="UnknownJDBCConnectionFactory" class="cn.edu.zju.dart.core.resregistry.connection.impl.SimpleJDBCConnFactory" singleton="false"/>
+	<!-- 
+	<bean id="UnknownJDBCTempDbResHelper" class="cn.edu.zju.dart.core.resregistry.tempdb.impl.SimpleJDBCTempDbResHelper" singleton="false"/>
+	-->
+	<bean id="UnknownJDBCTempDbResHelper" class="cn.edu.zju.dart.core.sparql.sql.SimpleJDBCTempDbResHelper4Sparql" singleton="false"/>
+	<bean id="UnknownSqlTypeHandler" class="cn.edu.zju.dart.core.resregistry.metadata.impl.SimpleSqlTypeHandler"/>
+	
+	<bean id="IDbResUtil" class="cn.edu.zju.dart.core.resregistry.model.impl.DbResUtilImpl">
+		<constructor-arg>
+			<map>
+				<entry key="MySQL"><ref bean="MySQLMetaDataExtractor"/></entry>
+				<entry key="UnknownJDBC"><ref bean="UnknownJDBCMetaDataExtractor"/></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+
+	<!--
+	<bean id="IDartServiceRegistry" class="cn.edu.zju.dart.service.resregistry.impl.servicereg.ContainerDartServiceRegistry"/>
+	-->
+	<bean id="IDartResRegistry" class="cn.edu.zju.dart.core.resregistry.impl.StaticDartResRegistry">
+		<constructor-arg index="0"><value>etc</value></constructor-arg>
+	</bean>		
+<!--<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName">
+			<value>java:comp/env/services/dart/ResCatalogService/home</value>
+	    </property>
+	</bean>
+-->
+	<bean id="IDartSemanticRegistry" class="cn.edu.zju.dart.core.semanticregistry.impl.StaticDartSemanticRegistry">
+		<constructor-arg index="0"><value>etc</value></constructor-arg>
+	</bean>
+	<bean id="IOntologySchema" class="cn.edu.zju.dart.core.ontology.impl.StaticOntologySchema">
+		<constructor-arg><value>etc</value></constructor-arg>
+	</bean>
+	<bean id="IEngine" class="cn.edu.zju.dart.core.engine.engine.MultithreadEngine"/>
+	<bean id="RdfSemanticWrapper" class="cn.edu.zju.dart.core.wrapper.impl.SemanticWrapper"/>
+	<bean id="XmlSemanticWrapper" class="cn.edu.zju.dart.core.wrapper.impl.SemanticWrapper"/>
+
+	<bean id="DartCoreSettings" class="cn.edu.zju.dart.core.utils.DartCoreSettings">
+		<property name="engine"><ref bean="IEngine"/></property>
+		<property name="dartResRegistry"><ref bean="IDartResRegistry"/></property>
+		<property name="dartSemanticRegistry"><ref bean="IDartSemanticRegistry"/></property>
+		<property name="dartOntoSchema"><ref bean="IOntologySchema"/></property>
+		<property name="dbResUtil"><ref bean="IDbResUtil"/></property>
+		<property name="semanticWrapperType">
+			<map>
+				<entry key="RdfWrapper"><ref bean="RdfSemanticWrapper"/></entry>
+				<entry key="XmlWrapper"><ref bean="XmlSemanticWrapper"/></entry>
+			</map>
+		</property>
+		<property name="storePath"><value>etc/DartCore/store/</value></property>
+		<property name="localRelationInsertBatchSize"><value>50</value></property>
+		<property name="localRelationTempColumnSize"><value>200</value></property>
+		<property name="queryResultBufferSize"><value>2000</value></property>
+		<property name="queryResultPageSize"><value>100</value></property>
+		<property name="joinType"><value>LeftOuter</value></property>
+		<!-- 可选的值是：Inner,FullOuter,LeftOuter,RightOuter -->
+	</bean>
+	
+	
+	<bean id="ISparqlResRegistry" class="cn.edu.zju.dart.core.resregistry.impl.SparqlResRegistry">
+		<constructor-arg index="0"><value>etc</value></constructor-arg>
+	</bean>		
+	<bean id="ISparqlSemRegistry" class="cn.edu.zju.dart.core.semregistry.impl.SparqlSemRegistry">
+		<constructor-arg index="0"><value>http://dart.zju.edu.cn/semregs/</value></constructor-arg>
+		<constructor-arg index="1"><value>etc</value></constructor-arg>
+	</bean>
+	<bean id="SparqlSettings" class="cn.edu.zju.dart.core.utils.SparqlCoreSettings">
+		<property name="sparqlResReg"><ref bean="ISparqlResRegistry"/></property>
+		<property name="sparqlSemReg"><ref bean="ISparqlSemRegistry"/></property>
+	</bean>
+</beans>

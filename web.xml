@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app>
+    <servlet>
+        <servlet-name>GetContentService</servlet-name>
+        <servlet-class>
+            ccnt.server.GetContentServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetContentService</servlet-name>
+        <url-pattern>/GetContent.rpc</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GetThesaurusService</servlet-name>
+        <servlet-class>
+            ccnt.server.ThesaurusServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetThesaurusService</servlet-name>
+        <url-pattern>/getThesaurus</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GetPropertyService</servlet-name>
+        <servlet-class>
+            ccnt.server.PropertyServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetPropertyService</servlet-name>
+        <url-pattern>/getProperty</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GetCorrelativeService</servlet-name>
+        <servlet-class>
+            ccnt.server.CorrelativeServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCorrelativeService</servlet-name>
+        <url-pattern>/getCorrelative</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resregister>
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>tcmls</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" canBeTempDb="true" >
+      <jdbcUrl>jdbc:oracle:thin:@10.214.33.111:1521:MT</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>tcmls</jdbcUser>
+      <jdbcPwd>tcmls</jdbcPwd>
+    </localDbResType>
+    <tableNameFilter>
+      <regex>TCMLS(.*)</regex>
+    </tableNameFilter>
+  </dbResInfo>
+  
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>tcmct</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" canBeTempDb="true" >
+      <jdbcUrl>jdbc:oracle:thin:@10.214.33.111:1521:MT</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>tcmct</jdbcUser>
+      <jdbcPwd>tcmct</jdbcPwd>
+    </localDbResType>
+    <tableNameFilter>
+      <regex>TCMCT(.*)</regex>
+    </tableNameFilter>
+  </dbResInfo>
+  
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>ztc</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" canBeTempDb="true" >
+      <jdbcUrl>jdbc:oracle:thin:@10.214.33.111:1521:MT</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>ztc</jdbcUser>
+      <jdbcPwd>ztc</jdbcPwd>
+    </localDbResType>
+    <tableNameFilter>
+      <regex>ZTC(.*)</regex>
+    </tableNameFilter>
+  </dbResInfo>
+  
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>pharmic</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" canBeTempDb="true" >
+      <jdbcUrl>jdbc:oracle:thin:@10.214.33.111:1521:MT</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>pharmic</jdbcUser>
+      <jdbcPwd>pharmic</jdbcPwd>
+    </localDbResType>
+    <tableNameFilter>
+      <regex>PHARMIC(.*)</regex>
+    </tableNameFilter>
+  </dbResInfo>
+  
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>tempdb</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" tempTableSpace="null">
+      <jdbcUrl>jdbc:oracle:thin:@10.214.33.111:1521:MT</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>tcmls</jdbcUser>
+      <jdbcPwd>tcmls</jdbcPwd>
+    </localDbResType>
+   <tableNameFilter>
+      <regex>tcmls(.*)</regex>
+    </tableNameFilter> 
+  </dbResInfo>
+</resregister>

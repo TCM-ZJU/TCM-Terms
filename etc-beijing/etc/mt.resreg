@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resregister>
+
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>ztc</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" tempTableSpace="null">
+      <jdbcUrl>jdbc:oracle:thin:@192.168.200.74:1521:SHRDB1</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>wx</jdbcUser>
+      <jdbcPwd>wx5803</jdbcPwd>
+    </localDbResType>
+    <tableNameFilter>
+      <regex>WX.ZTC.*</regex>
+    </tableNameFilter>
+  </dbResInfo>
+  
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>tcmct</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" tempTableSpace="null">
+      <jdbcUrl>jdbc:oracle:thin:@192.168.200.50:1521:CINTCM</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>snomed</jdbcUser>
+      <jdbcPwd>snomed</jdbcPwd>
+    </localDbResType>
+    <tableNameFilter>
+      <regex>SNOMED.*</regex>
+      <exclude>SNOMED.BIN$.*</exclude>
+    </tableNameFilter>
+  </dbResInfo>
+  
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>pharmic</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" canBeTempDb="true" >
+      <jdbcUrl>jdbc:oracle:thin:@192.168.200.74:1521:SHRDB1</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>semantic_net</jdbcUser>
+      <jdbcPwd>semantic_net5803</jdbcPwd>
+    </localDbResType>
+    <tableNameFilter>
+      <regex>SEMANTIC_NET(.*)</regex>
+      <exclude>SEMANTIC_NET.(BIN$*)</exclude>
+    </tableNameFilter>
+  </dbResInfo>
+  
+  <dbResInfo>
+    <dbResQname>
+      <namespace>http://ccnt.cn/mt</namespace>
+      <localpart>tempdb</localpart>
+    </dbResQname>
+    <localDbResType dbType="Oracle" canBeTempDb="true">
+      <jdbcUrl>jdbc:oracle:thin:@192.168.200.50:1521:CINTCM</jdbcUrl>
+      <jdbcDriver>oracle.jdbc.driver.OracleDriver</jdbcDriver>
+      <jdbcUser>snomed</jdbcUser>
+      <jdbcPwd>snomed</jdbcPwd>
+    </localDbResType>
+   <tableNameFilter>
+      <regex>SNOMED(.*)</regex>
+    </tableNameFilter> 
+  </dbResInfo>
+</resregister>

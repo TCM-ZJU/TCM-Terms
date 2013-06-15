@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tableregister>
+  <table>
+    <uri>{http://ccnt.cn/mt}tcmls.T_CONCEPT</uri>
+    <ontologies>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Word</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#concept</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.T_TERM</table>
+            <joinref>hasConcept</joinref>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasAlias</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.ALIAS</table>
+            <joinref>hasAlias</joinref>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasDefination</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.T_UR_1024</table>
+            <joinref>hasDefination</joinref>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#parent</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.TCM</table>
+            <joinref>hasParent</joinref>	  
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#parent</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.TCM</table>
+            <joinref>hasClass</joinref>	  
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#child</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.TCM</table>
+            <joinref>hasChild</joinref>
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#child</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.TCM</table>
+            <joinref>hasInstance</joinref>	  
+          </ontoProp>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasBelonging</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.SEMANTICEDIT</table>
+            <joinref>hasBelonging</joinref>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+    </ontologies>
+  </table>
+  <join id="hasAlias">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="ID" father="1">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+      <column refid="IndexedBy" father="2">{http://ccnt.cn/mt}tcmct.ALIAS.INDEXEDBY</column>
+      <condition>###ID### = ###IndexedBy###</condition>
+    </constraint>
+  </join>
+  <join id="hasDefination">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="ID" father="1">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+      <column refid="IndexedBy" father="2">{http://ccnt.cn/mt}tcmct.DEFINITION.INDEXEDBY</column>
+      <condition>###ID### = ###IndexedBy###</condition>
+    </constraint>
+  </join>
+  <join id="hasParent">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="parentID" father="1">{http://ccnt.cn/mt}tcmct.TCM.PARENTID</column>
+      <column refid="ID" father="2">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+      <condition>###parentID### = ###ID###</condition>
+    </constraint>
+  </join>
+  <join id="hasClass">
+    <left>
+      <join>
+		<left id="1">Subject</left>
+		<right id="2">{http://ccnt.cn/mt}tcmct.CLSINSTANCE</right>
+		<constraint>
+		  <column refid="ID" father="1">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+		  <column refid="InsID" father="2">{http://ccnt.cn/mt}tcmct.CLSINSTANCE.INSID</column>
+		  <condition>###ID### = ###InsID###</condition>
+		</constraint>
+      </join>
+    </left>
+    <right id="3">Object</right>
+    <constraint>
+      <column refid="ClsID" father="2">{http://ccnt.cn/mt}tcmct.CLSINSTANCE.CLSID</column>
+      <column refid="TCMClsID" father="3">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+      <condition>###ClsID### = ###TCMClsID###</condition>
+    </constraint>
+  </join>
+  <join id="hasChild">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="ID" father="1">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+      <column refid="parentID" father="2">{http://ccnt.cn/mt}tcmct.TCM.PARENTID</column>
+      <condition>###ID### = ###parentID###</condition>
+    </constraint>
+  </join>
+  <join id="hasInstance">
+    <left>
+      <join>
+		<left id="1">Subject</left>
+		<right id="2">{http://ccnt.cn/mt}tcmct.CLSINSTANCE</right>
+		<constraint>
+		  <column refid="ID" father="1">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+		  <column refid="ClsID" father="2">{http://ccnt.cn/mt}tcmct.CLSINSTANCE.CLSID</column>
+		  <condition>###ID### = ###ClsID###</condition>
+		</constraint>
+      </join>
+    </left>
+    <right id="3">Object</right>
+    <constraint>
+      <column refid="InsID" father="2">{http://ccnt.cn/mt}tcmct.CLSINSTANCE.INSID</column>
+      <column refid="TCMInsID" father="3">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+      <condition>###InsID### = ###TCMInsID###</condition>
+    </constraint>
+  </join>
+  <join id="hasBelonging">
+    <left>
+      <join>
+		<left id="1">Subject</left>
+		<right id="2">{http://ccnt.cn/mt}tcmct.RELATEDTCMLS</right>
+		<constraint>
+		  <column refid="ID" father="1">{http://ccnt.cn/mt}tcmct.TCM.ID</column>
+		  <column refid="CInd" father="2">{http://ccnt.cn/mt}tcmct.RELATEDTCMLS.CONCEPTINDEX</column>
+		  <condition>###ID### = ###CInd###</condition>
+		</constraint>
+      </join>
+    </left>
+    <right id="3">Object</right>
+    <constraint>
+      <column refid="RInd" father="2">{http://ccnt.cn/mt}tcmct.RELATEDTCMLS.RELATEDINDEX</column>
+      <column refid="SInd" father="3">{http://ccnt.cn/mt}tcmct.SEMANTICEDIT.SEMANTICEDITINDEX</column>
+      <condition>###RInd### = ###SInd###</condition>
+    </constraint>
+  </join>
+  <table>
+    <uri>{http://ccnt.cn/mt}tcmct.CLSINSTANCE</uri>
+    <ontologies/>
+  </table>
+  <table>
+    <uri>{http://ccnt.cn/mt}tcmct.ALIAS</uri>
+    <ontologies>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Alias</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#name</ontologyURI>
+            <column>ALIAS</column>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+    </ontologies>
+  </table>
+  <table>
+    <uri>{http://ccnt.cn/mt}tcmct.DEFINITION</uri>
+    <ontologies>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Defination</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#content</ontologyURI>
+            <column>DEFINITION</column>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+    </ontologies>
+  </table>
+  <table>
+    <uri>{http://ccnt.cn/mt}tcmct.RELATEDTCMLS</uri>
+    <ontologies/>
+  </table>
+  <table>
+    <uri>{http://ccnt.cn/mt}tcmct.SEMANTICEDIT</uri>
+    <ontologies>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Belonging</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#relaconcept</ontologyURI>
+            <column>RELATEDCONCEPT</column>
+          </ontoProp>
+	  	  <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#hasRelation</ontologyURI>
+            <table>{http://ccnt.cn/mt}tcmct.RELATION</table>
+            <joinref>hasRelation</joinref>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+    </ontologies>
+  </table>
+  <join id="hasRelation">
+    <left id="1">Subject</left>
+    <right id="2">Object</right>
+    <constraint>
+      <column refid="SemaRela" father="1">{http://ccnt.cn/mt}tcmct.SEMANTICEDIT.SEMANTICRELA</column>
+      <column refid="RelaID" father="2">{http://ccnt.cn/mt}tcmct.RELATION.ID</column>
+      <condition>###SemaRela### = ###RelaID###</condition>
+    </constraint>
+  </join>
+  <table>
+    <uri>{http://ccnt.cn/mt}tcmct.RELATION</uri>
+    <ontologies>
+      <ontology isMainOnto="true">
+        <ontologyURI>http://ccnt.cn/mt#Relation</ontologyURI>
+        <ontoProps>
+          <ontoProp>
+            <ontologyURI>http://ccnt.cn/mt#relaname</ontologyURI>
+            <column>RELANAME</column>
+          </ontoProp>
+        </ontoProps>
+      </ontology>
+    </ontologies>
+  </table>
+</tableregister>

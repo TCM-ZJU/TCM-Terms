@@ -1,0 +1,54 @@
+
+#driverClassName=oracle.jdbc.xa.client.OracleXADataSource
+#url=jdbc:oracle:thin:@10.214.43.214:1521:tcm
+#username=tcmdss
+#password=tcmdss
+
+
+
+#condb
+#driverClassName=oracle.jdbc.xa.client.OracleXADataSource
+#url=jdbc:oracle:thin:@(DESCRIPTION =\
+#(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.68)(PORT = 1521))\
+#(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.69)(PORT = 1521))\
+#(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.72)(PORT = 1521))\
+#(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.73)(PORT = 1521))\
+#(LOAD_BALANCE = yes)\
+#(FAILOVER = ON)\
+#(CONNECT_DATA =\
+#(SERVER = DEDICATED)\
+#(SERVICE_NAME = condb)\
+#(FAILOVER_MODE=\
+#(TYPE=SELECT)\
+#(METHOD = BASIC)\
+#(RETRIES=30)\
+#(DELAY=5)\
+#)\
+#)\
+#)
+
+
+#username=tcm_clinic
+#password=tcm_clinic
+
+driverClassName=oracle.jdbc.xa.client.OracleXADataSource
+url=jdbc:oracle:thin:@(DESCRIPTION =\
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.74)(PORT = 1521))\
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.75)(PORT = 1521))\
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.70)(PORT = 1521))\
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.200.71)(PORT = 1521))\
+    (LOAD_BALANCE = yes)\
+    (failover = on)\
+    (CONNECT_DATA =\
+      (SERVER = DEDICATED)\
+      (SERVICE_NAME = shrdb)\
+      (failover_mode =\
+        (type = select)\
+        (method = basic)\
+        (retries = 50)\
+        (delay = 3)\
+      )\
+    )\
+  )
+username=rprphe
+password=rprphe

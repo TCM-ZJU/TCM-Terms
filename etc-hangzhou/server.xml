@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+	<tcmls>
+		<url>jdbc:oracle:thin:@10.214.33.111:1521:MT</url>
+		<user>tcmls</user>
+		<password>tcmls</password>
+		<max>100</max>
+		<min>50</min>
+		<idle>50</idle>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<name>中医药学语言系统</name>
+	</tcmls>
+	<tcmct>
+		<url>jdbc:oracle:thin:@10.214.33.111:1521:MT</url>
+		<user>tcmct</user>
+		<password>tcmct</password>
+		<max>100</max>
+		<min>50</min>
+		<idle>50</idle>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<name>中医临床术语集</name>
+	</tcmct>
+	<ztc>
+		<url>jdbc:oracle:thin:@10.214.33.111:1521:MT</url>
+		<user>ztc</user>
+		<password>ztc</password>
+		<max>100</max>
+		<min>50</min>
+		<idle>50</idle>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<name>中医药学主题词表</name>
+	</ztc>
+	<pharmic>
+		<url>jdbc:oracle:thin:@10.214.33.111:1521:MT</url>
+		<user>pharmic</user>
+		<password>pharmic</password>
+		<max>100</max>
+		<min>50</min>
+		<idle>50</idle>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<name>中医药学名词</name>
+	</pharmic>
+</databases>
